@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 180px 10px 180px;
+    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+    color: #E5E7EB;
+    display: flex;
+    gap: 15px;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 180px 30px 180px;
+    justify-content: space-between;
+   
+}
+
+button {
+    background-color: #3382F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    border: none;
+}
+
+.hero-text-1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-image {
+    height: 200px;
+    width: 300px;
+}
+
+.animal-gallery-text-1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+.animal-gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.testimonial {
+    background-color: #E5E7EB ;
+    padding: 30px 200px 30px 200px;
+    font-size: 30px;
+    font-weight: light;
+    color: #1F2937;
+}
