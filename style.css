@@ -27,7 +27,7 @@ body {
     display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 30px 180px 30px 180px;
+    padding: 50px 180px 50px 180px;
     justify-content: space-between;
    
 }
@@ -52,7 +52,7 @@ button {
     width: 300px;
 }
 
-.animal-gallery-text-1 {
+.creature-gallery-text-1 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -66,7 +66,7 @@ img {
 
 }
 
-.animal-gallery-container {
+.creature-gallery-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,10 +76,26 @@ img {
     margin-right: 100px;
 }
 
+.creature-gallery {
+    padding: 60px 260px 60px 260px; 
+}
+
 .testimonial {
     background-color: #E5E7EB ;
-    padding: 30px 200px 30px 200px;
+    padding: 60px 260px 60px 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonial-text-container-quote {
+    font-style: italic;
     font-size: 30px;
     font-weight: light;
     color: #1F2937;
+}
+
+.testimonial-text-container-source {
+    font-weight: bold;
+    align-self: flex-end;
 }
